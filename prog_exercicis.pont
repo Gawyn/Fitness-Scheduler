@@ -1,0 +1,203 @@
+; Wed Jan 05 11:04:15 GMT 2011
+; 
+;+ (version "3.4.4")
+;+ (build "Build 579")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot min_duracio
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot frequencia
+		(type SYMBOL)
+		(allowed-values baixa mitjana alta)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot conpesas
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot realitza
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(single-slot pes
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot temps
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot objectiusprog
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(single-slot prog_exercicis_Class25
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot boperesquena
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot repeticiones
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot altura
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot massa_corporal
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tipus_act
+		(type SYMBOL)
+		(allowed-values despla%C3%A7aments_a_peu aixecament_de_pes esfor%C3%A7os_musculars)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot objectius
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot te
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(single-slot tiempo
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nom_exercici
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot edat
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tempsdisponible
+		(type INTEGER)
+		(range 30 %3FVARIABLE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot duracio_act
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tipus_prob
+		(type SYMBOL)
+		(allowed-values esquena articulacions cervicals)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot dificultat
+		(type SYMBOL)
+		(allowed-values moderada normal dificil)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot max_duracio
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot esta_format_per
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot objetivo
+		(type SYMBOL)
+		(allowed-values pes enforma flexibilitat musculacio esport)
+		(create-accessor read-write))
+	(single-slot sexe
+		(type SYMBOL)
+		(allowed-values home dona)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot ateny
+		(type INSTANCE)
+;+		(allowed-classes)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot pesas
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Exercici
+	(is-a USER)
+	(role concrete)
+	(single-slot nom_exercici
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot objetivo
+		(type SYMBOL)
+		(allowed-values pes enforma flexibilitat musculacio esport)
+		(create-accessor read-write))
+	(single-slot tiempo
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot dificultat
+		(type SYMBOL)
+		(allowed-values moderada normal dificil)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Aerobic
+	(is-a Exercici)
+	(role concrete))
+
+(defclass Anaerobic
+	(is-a Exercici)
+	(role concrete)
+	(single-slot conpesas
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot repeticiones
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Abdominals
+	(is-a Anaerobic)
+	(role concrete))
+
+(defclass Biceps
+	(is-a Anaerobic)
+	(role concrete))
+
+(defclass Pectorals
+	(is-a Anaerobic)
+	(role concrete))
+
+(defclass Cames
+	(is-a Anaerobic)
+	(role concrete))
+
+(defclass Esquena
+	(is-a Anaerobic)
+	(role concrete))
+
+(defclass Activitats
+	(is-a Exercici)
+	(role concrete)
+	(single-slot boperesquena
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Estiraments
+	(is-a Exercici)
+	(role concrete))

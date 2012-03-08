@@ -1,0 +1,714 @@
+; Wed Jan 05 11:04:15 GMT 2011
+; 
+;+ (version "3.4.4")
+;+ (build "Build 579")
+
+([prog_exercicis_Class0] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps a una mano concentrado")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class10] of  Aerobic
+
+	(dificultat moderada)
+	(nom_exercici "Stepper")
+	(tiempo 15))
+
+([prog_exercicis_Class10000] of  Biceps
+
+	(dificultat moderada)
+	(nom_exercici "Curl de bíceps en polea baja")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10031] of  Aerobic
+
+	(dificultat normal)
+	(nom_exercici "Bicicleta")
+	(tiempo 30))
+
+([prog_exercicis_Class10037] of  Aerobic
+
+	(dificultat dificil)
+	(nom_exercici "Bicicleta")
+	(tiempo 60))
+
+([prog_exercicis_Class10043] of  Aerobic
+
+	(dificultat normal)
+	(nom_exercici "Footing")
+	(tiempo 30))
+
+([prog_exercicis_Class10047] of  Aerobic
+
+	(dificultat dificil)
+	(nom_exercici "Footing")
+	(tiempo 60))
+
+([prog_exercicis_Class10051] of  Activitats
+
+	(dificultat moderada)
+	(nom_exercici "Futbol sala")
+	(tiempo 30))
+
+([prog_exercicis_Class10053] of  Activitats
+
+	(dificultat moderada)
+	(nom_exercici "Basquet")
+	(tiempo 30))
+
+([prog_exercicis_Class10057] of  Activitats
+
+	(dificultat moderada)
+	(nom_exercici "Pilates")
+	(tiempo 30))
+
+([prog_exercicis_Class10060] of  Abdominals
+
+	(dificultat moderada)
+	(nom_exercici "Abdominals simples")
+	(repeticiones 20)
+	(tiempo 5))
+
+([prog_exercicis_Class10063] of  Abdominals
+
+	(dificultat normal)
+	(nom_exercici "Abdominals simples")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class10068] of  Abdominals
+
+	(dificultat normal)
+	(nom_exercici "Abdominals amb les cames elevades")
+	(repeticiones 20)
+	(tiempo 5))
+
+([prog_exercicis_Class10071] of  Abdominals
+
+	(dificultat dificil)
+	(nom_exercici "Abdominals amb les cames elevades")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class10075] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Curl de biceps a una mano de pie")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10078] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat moderada)
+	(nom_exercici "Curl de biceps a una mano en banco")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10080] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Curl de biceps con barra de pie")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10082] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat moderada)
+	(nom_exercici "Curl de biceps con barra en banco")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10084] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Curl de biceps a una mano concentrado")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10086] of  Pectorals
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Press banca")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10088] of  Pectorals
+
+	(conpesas TRUE)
+	(dificultat moderada)
+	(nom_exercici "Press banca inclinado")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10090] of  Pectorals
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Press banca declinado")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10092] of  Pectorals
+
+	(dificultat moderada)
+	(nom_exercici "Press barra (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10094] of  Pectorals
+
+	(dificultat normal)
+	(nom_exercici "Compresión pectorales (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10096] of  Activitats
+
+	(dificultat moderada)
+	(nom_exercici "Voleibol")
+	(tiempo 30))
+
+([prog_exercicis_Class10109] of  Cames
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Sentadilla Squat")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10112] of  Activitats
+
+	(boperesquena TRUE)
+	(dificultat moderada)
+	(nom_exercici "Natació")
+	(tiempo 30))
+
+([prog_exercicis_Class10115] of  Cames
+
+	(conpesas FALSE)
+	(dificultat moderada)
+	(nom_exercici "Elevación de talones sentado")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10118] of  Cames
+
+	(conpesas FALSE)
+	(dificultat normal)
+	(nom_exercici "Isquiotibiales (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10122] of  Esquena
+
+	(conpesas FALSE)
+	(dificultat moderada)
+	(nom_exercici "Politja per darrere del clatell (màquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10124] of  Esquena
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Press d'espatlles amb barra per darrere del clatell")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10126] of  Esquena
+
+	(dificultat moderada)
+	(nom_exercici "Lumbars assegut (màquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class10128] of  Aerobic
+
+	(dificultat dificil)
+	(nom_exercici "Correr en cinta")
+	(tiempo 30))
+
+([prog_exercicis_Class14] of  Aerobic
+
+	(dificultat normal)
+	(nom_exercici "Stepper")
+	(tiempo 30))
+
+([prog_exercicis_Class18] of  Activitats
+
+	(dificultat normal)
+	(nom_exercici "Rem")
+	(objetivo musculacio)
+	(tiempo 30))
+
+([prog_exercicis_Class2] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps a una mano de pie")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20001] of  Biceps
+
+	(dificultat normal)
+	(nom_exercici "Curl de bíceps en polea baja")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20002] of  Aerobic
+
+	(dificultat moderada)
+	(nom_exercici "Footing")
+	(tiempo 15))
+
+([prog_exercicis_Class20003] of  Biceps
+
+	(dificultat normal)
+	(nom_exercici "Curl de biceps a una mano (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class20004] of  Biceps
+
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps a una mano (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20026] of  Cames
+
+	(dificultat dificil)
+	(nom_exercici "Isquiotibiales (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20029] of  Cames
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Sentadilla Squat")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20032] of  Aerobic
+
+	(dificultat normal)
+	(nom_exercici "Bicicleta estàtica")
+	(tiempo 15))
+
+([prog_exercicis_Class20043] of  Aerobic
+
+	(dificultat moderada)
+	(nom_exercici "Bicicleta")
+	(tiempo 15))
+
+([prog_exercicis_Class20048] of  Aerobic
+
+	(dificultat normal)
+	(nom_exercici "Correr en cinta")
+	(tiempo 15))
+
+([prog_exercicis_Class20053] of  Aerobic
+
+	(dificultat dificil)
+	(nom_exercici "Stepper")
+	(tiempo 60))
+
+([prog_exercicis_Class20056] of  Pectorals
+
+	(dificultat dificil)
+	(nom_exercici "Compresión pectorales (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20058] of  Pectorals
+
+	(dificultat dificil)
+	(nom_exercici "Press barra (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20060] of  Pectorals
+
+	(conpesas TRUE)
+	(dificultat normal)
+	(nom_exercici "Press banca inclinado")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20062] of  Pectorals
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Press banca")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20064] of  Abdominals
+
+	(dificultat dificil)
+	(nom_exercici "Abdominals simples")
+	(repeticiones 100)
+	(tiempo 5))
+
+([prog_exercicis_Class20068] of  Esquena
+
+	(dificultat normal)
+	(nom_exercici "Lumbars assegut (màquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20070] of  Esquena
+
+	(dificultat normal)
+	(nom_exercici "Politja per darrere del clatell (màquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class20072] of  Esquena
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Press d'espatlles amb barra per darrere del clatell")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class22] of  Cames
+
+	(dificultat normal)
+	(nom_exercici "Elevación de talones sentado")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class24] of  Aerobic
+
+	(dificultat dificil)
+	(nom_exercici "Bicicleta estàtica")
+	(tiempo 30))
+
+([prog_exercicis_Class30002] of  Biceps
+
+	(dificultat normal)
+	(nom_exercici "Curl de biceps a dos manos (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30003] of  Biceps
+
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps a dos manos (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30004] of  Cames
+
+	(dificultat moderada)
+	(nom_exercici "Curl de piernas acostado (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30005] of  Cames
+
+	(dificultat normal)
+	(nom_exercici "Curl de piernas acostado (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30006] of  Esquena
+
+	(dificultat dificil)
+	(nom_exercici "Dominadas en barra fija")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30007] of  Esquena
+
+	(dificultat moderada)
+	(nom_exercici "Pull-over con polea alta")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30008] of  Esquena
+
+	(dificultat normal)
+	(nom_exercici "Pull-over con polea alta")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30009] of  Esquena
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Peso muerto con barra")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30010] of  Pectorals
+
+	(dificultat moderada)
+	(nom_exercici "Cruces de pie con poleas")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30011] of  Pectorals
+
+	(dificultat normal)
+	(nom_exercici "Cruces de pie con poleas")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30012] of  Pectorals
+
+	(dificultat moderada)
+	(nom_exercici "Flexiones de brazos en el suelo")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30013] of  Pectorals
+
+	(dificultat normal)
+	(nom_exercici "Flexiones de brazos en el suelo")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30014] of  Pectorals
+
+	(dificultat dificil)
+	(nom_exercici "Flexiones de brazos en el suelo")
+	(repeticiones 100)
+	(tiempo 5))
+
+([prog_exercicis_Class30015] of  Pectorals
+
+	(dificultat moderada)
+	(nom_exercici "Aperturas en contractor de pecho (máquina)")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30016] of  Pectorals
+
+	(dificultat normal)
+	(nom_exercici "Aperturas en contractor de pecho (máquina)")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30017] of  Cames
+
+	(dificultat moderada)
+	(nom_exercici "Flexión de tronco al frente")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30018] of  Cames
+
+	(dificultat normal)
+	(nom_exercici "Flexión de tronco al frente")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30019] of  Abdominals
+
+	(dificultat normal)
+	(nom_exercici "Encogimientos abdominales con polea alta")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30020] of  Abdominals
+
+	(dificultat dificil)
+	(nom_exercici "Encogimientos abdominales con polea alta")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30021] of  Abdominals
+
+	(dificultat moderada)
+	(nom_exercici "Elevación de rodillas en paralelas")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30022] of  Abdominals
+
+	(dificultat normal)
+	(nom_exercici "Elevación de rodillas en paralelas")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30023] of  Abdominals
+
+	(dificultat normal)
+	(nom_exercici "Elevación de piernas en tabla inclinada")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30024] of  Abdominals
+
+	(dificultat dificil)
+	(nom_exercici "Elevación de piernas en tabla inclinada")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30025] of  Abdominals
+
+	(dificultat moderada)
+	(nom_exercici "Flexión lateral de tronco en banco")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30026] of  Abdominals
+
+	(dificultat normal)
+	(nom_exercici "Flexión lateral de tronco en banco")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30027] of  Biceps
+
+	(dificultat normal)
+	(nom_exercici "Dominadas con palma hacia nosotros")
+	(repeticiones 30)
+	(tiempo 5))
+
+([prog_exercicis_Class30028] of  Biceps
+
+	(dificultat dificil)
+	(nom_exercici "Dominadas con palma hacia nosotros")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class30029] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de cuadriceps")
+	(tiempo 5))
+
+([prog_exercicis_Class30030] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de femorales")
+	(tiempo 5))
+
+([prog_exercicis_Class30031] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de gemelos")
+	(tiempo 5))
+
+([prog_exercicis_Class30032] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos del psoas ilíaco")
+	(tiempo 5))
+
+([prog_exercicis_Class30033] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de espalda")
+	(tiempo 5))
+
+([prog_exercicis_Class30034] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de antebrazos")
+	(tiempo 5))
+
+([prog_exercicis_Class30035] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de triceps")
+	(tiempo 5))
+
+([prog_exercicis_Class30036] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de cervicales")
+	(tiempo 5))
+
+([prog_exercicis_Class30037] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de abductores")
+	(tiempo 5))
+
+([prog_exercicis_Class30038] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de hombros")
+	(tiempo 5))
+
+([prog_exercicis_Class30039] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de oblicuos")
+	(tiempo 5))
+
+([prog_exercicis_Class30040] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de lumbares")
+	(tiempo 5))
+
+([prog_exercicis_Class30041] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos de cuello")
+	(tiempo 5))
+
+([prog_exercicis_Class30042] of  Estiraments
+
+	(dificultat moderada)
+	(nom_exercici "Estiramientos isquiotibiales")
+	(tiempo 5))
+
+([prog_exercicis_Class30043] of  Activitats
+
+	(dificultat moderada)
+	(nom_exercici "Partit de ping-pong")
+	(tiempo 15))
+
+([prog_exercicis_Class30044] of  Activitats
+
+	(dificultat moderada)
+	(nom_exercici "Jugar a la Wii")
+	(tiempo 15))
+
+([prog_exercicis_Class30045] of  Aerobic
+
+	(dificultat dificil)
+	(nom_exercici "Sprint")
+	(tiempo 5))
+
+([prog_exercicis_Class4] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps a una mano en banco")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class6] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps con barra de pie")
+	(repeticiones 50)
+	(tiempo 5))
+
+([prog_exercicis_Class8] of  Biceps
+
+	(conpesas TRUE)
+	(dificultat dificil)
+	(nom_exercici "Curl de biceps con barra en banco")
+	(repeticiones 50)
+	(tiempo 5))

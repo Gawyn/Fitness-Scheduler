@@ -1,0 +1,22 @@
+digraph "prog_exercicis" {
+
+"Cames" [shape=box, label="Cames", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Anaerobic"->"Cames" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Esquena" [shape=box, label="Esquena", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Anaerobic"->"Esquena" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Pectorals" [shape=box, label="Pectorals", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Anaerobic"->"Pectorals" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Exercici" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Exercici|{nom_exercici|String}|{objetivo|Symbol*|{pes|enforma|flexibilitat|...}}|{tiempo|Integer}|{dificultat|Symbol|{moderada|normal|dificil}}}"]
+"Biceps" [shape=box, label="Biceps", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Anaerobic"->"Biceps" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Abdominals" [shape=box, label="Abdominals", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Anaerobic"->"Abdominals" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Activitats" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Activitats|{boperesquena|Boolean}}"]
+"Exercici"->"Activitats" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Anaerobic" [shape=record, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0", label="{Anaerobic|{conpesas|Boolean}|{repeticiones|Integer}}"]
+"Exercici"->"Anaerobic" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Aerobic" [shape=box, label="Aerobic", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Exercici"->"Aerobic" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Estiraments" [shape=box, label="Estiraments", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Exercici"->"Estiraments" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+}
